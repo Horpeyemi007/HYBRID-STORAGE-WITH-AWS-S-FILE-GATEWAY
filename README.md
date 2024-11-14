@@ -15,9 +15,9 @@ Also, this set up assumes that the gateway will be hosted on a VMware ESXi
 
 ### Terraform Code Section
 
-`Provider.tf`: Configuring the cloud provider as AWS
+`Provider.tf`: This file will configure the cloud provider as AWS
 
-`S3.tf`: Will create the S3 bucket for the file gateway.
+`S3.tf`: This file will create the S3 bucket for the file gateway.
 
 `Role.tf`: This will create a IAM role with the required permission for the storage gateway access.
 
