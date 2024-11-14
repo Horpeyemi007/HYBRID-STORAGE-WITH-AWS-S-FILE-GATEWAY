@@ -36,5 +36,5 @@ Also, this set up assumes that the gateway will be hosted on a VMware ESXi
 * Enter your activation key in the `Variable.tf` file.
 * run `terraform init`
 * run `terraform validate`
-* run `terraform plan` the run `terraform apply` 
+* run `terraform plan` then run `terraform apply` 
 
