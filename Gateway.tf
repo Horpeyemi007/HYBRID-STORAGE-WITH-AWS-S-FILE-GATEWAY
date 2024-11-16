@@ -3,7 +3,7 @@ resource "aws_storagegateway_gateway" "file_gateway" {
   gateway_name     = "MyFileGateway"
   gateway_timezone = "GMT"
   gateway_type     = "FILE_S3"
-  activation_key   = var.activation_key # Pass the activation key as a variable
+  activation_key   = var.activation_key # Passing the activation key as a variable
   tags = {
     Name = "FileGateway"
   }
@@ -28,7 +28,7 @@ resource "aws_storagegateway_cache" "gateway_cache" {
   disk_id     = local.disk_id
 }
 
-# Output the disk_id
+# Output the disk_id to the console
 output "disk_id" {
   value = local.disk_id
 }

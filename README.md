@@ -13,7 +13,7 @@ The following are important to have been configured in an on-premises environmen
 - Connect the Vmware workstation to the OVF template and run all the necessary setup and configuration.
 - Get the activation key ready.
 
-Also, this set up assumes that the gateway will be hosted on a VMware ESXi
+_**Also, this set up assumes that the gateway will be hosted on a VMware ESXi**_
 
 ### Terraform Code Section
 
