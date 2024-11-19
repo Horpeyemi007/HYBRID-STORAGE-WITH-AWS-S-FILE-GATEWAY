@@ -1,4 +1,4 @@
-# Create and activate the Storage Gateway with the activation key stored in the Variable.tf file
+# This will create and activate the Storage Gateway with the activation key stored in the Variable.tf file
 resource "aws_storagegateway_gateway" "file_gateway" {
   gateway_name     = "MyFileGateway"
   gateway_timezone = "GMT"
@@ -22,7 +22,7 @@ locals {
   disk_id = data.aws_storagegateway_local_disk.disks.id
 }
 
-# Define local cache storage for the disk attached to the gateway VM
+# Define local cache storage for the disk allocated to the gateway VM
 resource "aws_storagegateway_cache" "gateway_cache" {
   gateway_arn = aws_storagegateway_gateway.file_gateway.arn
   disk_id     = local.disk_id

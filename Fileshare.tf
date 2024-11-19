@@ -1,4 +1,4 @@
-# Configure an NFS File for the storage gateway and also linked it to the S3 bucket
+# This will configure an NFS File for the storage gateway and also linked it to the S3 bucket
 resource "aws_storagegateway_nfs_file_share" "nfs_file_share" {
   gateway_arn           = aws_storagegateway_gateway.file_gateway.arn
   location_arn          = aws_s3_bucket.file_gateway_bucket.arn
