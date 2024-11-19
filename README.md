@@ -38,3 +38,7 @@ _**Also, this set up assumes that the gateway will be hosted on a VMware ESXi**_
 - run `terraform init`
 - run `terraform validate`
 - run `terraform plan` then run `terraform apply`
+
+### Note
+
+After, all command has been successfully...then visit the AWS storage gateway console and under the file share option, copy the mount option for your PC to be used locally.
