@@ -13,7 +13,7 @@ The following are important to have been configured in an on-premises environmen
 - Connect the Vmware workstation to the OVF template and run all the necessary setup and configuration.
 - Get the activation key ready.
 
-_**Also, this set up assumes that the gateway will be hosted on a VMware ESXi**_
+_**Also, this set up assumes that the gateway will be hosted on a VMware ESXi**_ - as per the AWS supported hosted platform option
 
 ### Terraform Code Section
 
@@ -41,4 +41,4 @@ _**Also, this set up assumes that the gateway will be hosted on a VMware ESXi**_
 
 ### Note
 
-After all command has been successfully...then visit the AWS storage gateway console and under the file share option, copy the mount option for your PC to be used locally.
+After all command has been successfully...then visit the AWS storage gateway console and under the file share option, copy the mount option for your PC to be used locally via the command line.
